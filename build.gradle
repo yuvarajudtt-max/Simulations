@@ -75,6 +75,10 @@ dependencies {
 
     // Servlet API
     compileOnly 'jakarta.servlet:jakarta.servlet-api:6.0.0'
+
+    constraints {
+        implementation 'org.bouncycastle:bcpkix-jdk15on:1.79'
+    }
 }
 
 ext {
