@@ -78,6 +78,7 @@ dependencies {
 
     constraints {
         implementation 'org.bouncycastle:bcpkix-jdk15on:1.79'
+        implementation 'org.bouncycastle:bcprov-jdk15on:1.78'
     }
 }
 
